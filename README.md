@@ -18,7 +18,7 @@ Example: **Add 2017-11-07 big sport event**
 
 **Del _condition_**
 
-Delets all records from the database that satisfy the **_condition_** and output the amount **_N_** of deleted records in format «**Removed _N_ entries**». If there's no condition the whole database will be cleared.
+Delets all records from the database that satisfy the **_condition_** and output the amount **_N_** of deleted records in the format «**Removed _N_ entries**». If there's no condition the whole database will be cleared.
 
 Example:
 
@@ -36,7 +36,7 @@ Removed 2 entries
 ```
 **Print**
 
-Outputs all pairs (_date, event_) that are currently stored in the database. Pairs will be printed one by one per line. They will be sorted by date in ascending order. Events within a single date will be printed in the order of the addition (except already deleted ones and attempts to add duplicates). All dates will be printed in the format **YYYY--MM--DD**.
+Outputs all pairs (_date, event_) that are currently stored in the database. Pairs will be printed one by one per line. They will be sorted by date in ascending order. Events within a single date will be printed in the order of the addition (except already deleted ones and attempts to add duplicates). All dates will be printed in the format **YYYY-MM-DD**.
 
 Example:
 
@@ -58,7 +58,7 @@ Output
 
 **Find _condition_**
 
-Outputs all pairs (_date, event_) that are currently stored in the database and satisfy the **_condition_**. The output format is similar to the **Print** command. A search with an empty condition is equivalent to the **Print** command. At the end programm will ouput string **Found _N_ entries** where **_N_** is the amount of found pairs.
+Outputs all pairs (_date, event_) that are currently stored in the database and satisfy the **_condition_**. The output format is similar to the **Print** command. A search with an empty condition is equivalent to the **Print** command. At the end programm will ouput string «**Found _N_ entries**» where **_N_** is the amount of found pairs.
 
 Example:
 
