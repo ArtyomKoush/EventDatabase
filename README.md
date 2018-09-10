@@ -2,7 +2,7 @@
 
 This is a course project for the C++ Yellow Belt course (https://www.coursera.org/learn/c-plus-plus-yellow).
 
-The main task of this project was to implement database that works with pairs (**_date_**, **_event_**) and can perform operations like adding new records, printing existing records, searching for a specific record, deliting existing record.
+The main task of this project was to implement database that works with pairs (**_date_**, **_event_**) and can perform operations like adding new records, printing existing records, searching for a specific record, deleting existing record.
 
 # Programm interface
 
